@@ -1,30 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     font-family: "Inter", sans-serif;
 }
+
+p {
+    color: #00000080;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 46px;
+    font-family: "Noto Serif", serif;
+    font-weight: 600;
+}
+.btn{
+    padding: 8px 24px;
+    background-color: #E95A08;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+:root {
+    --on-col: #E95A08;
+}
+
 /* header part  */
-header{
+header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 18px;
 }
-.logo img{
+
+.logo img {
     width: 100px;
 }
-.mob-menu-btn , .mob-shop{
+
+.mob-menu-btn,
+.mob-shop {
     display: none;
 }
-.mob-menu-btn{
+
+.mob-menu-btn {
     font-size: 20px;
     cursor: pointer;
+    color: #E95A08;
 }
-.mob-menu{
+
+.mob-menu {
     display: none;
-    background-color: rgb(231, 225, 225);
+    background-color: #e4e8f3;
     border-radius: 4px;
     margin-top: 10px;
     padding: 12px;
+}
+
+/* main part  */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 18px;
+    margin-top: 40px;
+}
+
+/* Hero part  */
+.hero-con {
+    display: flex;
+    align-items: end;
+}
+
+.hero-con p {
+    margin-top: 10px;
+    width: 84%;
+}
+
+/* Our Plants part  */
+.plant-con{
+    margin-top: 60px;
+}
+.plant-con p{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.flower-box{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+}
+.flower-box h5{
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 500;
+    color: #111111;
+}
+.flower-box h4{
+    text-align: center;
+    font-weight: 700;
+    color: #111111;
+}
+.flower-box .btn{
+    margin-top: 12px;
+    width: 100%;
+}
+/* footer part  */
+footer{
+    margin-top: 90px;
+}
+.join-bg{
+    background-image: url(./assets/news-letter-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.join-con{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 200px 18px;
+}
+.search-con{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.join-con input{
+    margin-top: 14px;
+    background-color: white;
+    padding: 7px 16px;
+    border: none;
+    width: 100%;
+}
+.join-con .btn{
+    margin-top: 14px;
+}
+.foot-con{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 18px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    gap: 30px;
 }

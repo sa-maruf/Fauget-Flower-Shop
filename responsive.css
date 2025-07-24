@@ -1,4 +1,11 @@
 @media(max-width:768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
 
     /* Header part  */
     .des-menu {
@@ -21,11 +28,67 @@
 
     li {
         margin-top: 10px;
+        background-color: #F5F8FF;
+        padding: 4px 10px;
+        border-radius: 4px;
     }
 
     li:hover {
         background-color: #E95A08;
         color: white;
         border-radius: 4px;
+    }
+
+    /* Hero part  */
+    .hero-con {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .hero-con p {
+        width: 100%;
+    }
+
+    .hero-con .hero-con-02 {
+        width: 100%;
+    }
+
+    /* Our Plants part  */
+    .plant-con p {
+        width: 92%;
+    }
+
+    .flower-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* footer part  */
+    .join-con{
+        padding:150px 18px ;
+    }
+    .search-con {
+        width: 90%;
+    }
+
+    .join-con .btn {
+        padding: 8px 12px;
+    }
+
+    .foot-con {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .mob-left {
+        justify-content: start;
+    }
+}
+
+@media (min-width:769px) and (max-width:950px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 }

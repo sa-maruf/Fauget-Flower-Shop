@@ -11,25 +11,182 @@
     <link rel="stylesheet" href="./responsive.css">
 </head>
 
-<body>
+<body class="bg-[#F5F8FF]">
     <header>
         <nav class="flex items-center justify-between">
             <div id="mob-menu-btn" class="mob-menu-btn"><i class="fa-solid fa-bars"></i></div>
             <div class="logo"><a href="#"><img src="./assets/logo.png" alt="" width="100%"></a></div>
             <div class="des-menu flex items-center gap-10">
-                <a href="#">Home</a>
-                <a href="#">Shop</a>
-                <a href="#">About Us</a>
-                <div class="flex items-center gap-2"><i class="fa-solid fa-cart-shopping"></i> <span>Cart ($56)</span></div>
+                <a href="#" class="font-bold">Home</a>
+                <a href="#" class="text-[#8987A1]">Shop</a>
+                <a href="#" class="text-[#8987A1]">About Us</a>
+                <div class="flex items-center gap-2"><a href="#"><i class="fa-solid fa-cart-shopping text-[#E95A08]"></i></a>
+                    <span class="text-[#E95A08]">Cart ($56)</span>
+                </div>
             </div>
-            <div class="mob-shop flex items-center gap-2"><i class="fa-solid fa-cart-shopping"></i> <span>Cart ($56)</span></div>
+            <div class="mob-shop flex items-center gap-2"><a href="#"><i class="fa-solid fa-cart-shopping text-[#E95A08]"></i></a>
+                <span class="text-[#E95A08]">Cart ($56)</span>
+            </div>
         </nav>
         <div id="mob-menu" class="mob-menu">
-            <a href="#"><Li style="margin: 0;">Home</Li></a>
-            <a chref="#"><Li>Shop</Li></a>
-            <a href="#"><Li>About Us</Li></a>
+            <a href="#">
+                <Li style="margin: 0;">Home</Li>
+            </a>
+            <a chref="#">
+                <Li>Shop</Li>
+            </a>
+            <a href="#">
+                <Li>About Us</Li>
+            </a>
         </div>
     </header>
+    <main>
+        <!-- Hero part  -->
+        <section class="hero-con">
+            <div class="hero-con-02 w-1/2">
+                <h1>ALWAYS <span class="text-[#E95A08]">FRESH</span></h1>
+                <h1 class="text-[#E95A08]">FLOWERS</h1>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="hero-con-02 w-1/2">
+                <img src="./assets/hero-flower.png" alt="" width="100%">
+            </div>
+        </section>
+        <!-- Our Plants part-->
+        <section class="plant-con">
+            <h2 class="text-center">Our Plants</h2>
+            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+                blooms, we offer a wide variety of fresh.</p>
+            <div class="flower-box">
+                <!-- box 01 -->
+                <div>
+                    <img src="./assets/sample-flower-image.png" alt="" width="100%">
+                    <h5>Lily Blossom</h5>
+                    <h4>20 USD</h4>
+                    <div>
+                        <a href="#"><button class="btn">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <!-- box 02  -->
+                <div>
+                    <img src="./assets/sample-flower-image.png" alt="" width="100%">
+                    <h5>Lily Blossom</h5>
+                    <h4>20 USD</h4>
+                    <div>
+                        <a href="#"><button class="btn">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <!-- box 03 -->
+                <div>
+                    <img src="./assets/sample-flower-image.png" alt="" width="100%">
+                    <h5>Lily Blossom</h5>
+                    <h4>20 USD</h4>
+                    <div>
+                        <a href="#"><button class="btn">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <!-- box 04 -->
+                <div>
+                    <img src="./assets/sample-flower-image.png" alt="" width="100%">
+                    <h5>Lily Blossom</h5>
+                    <h4>20 USD</h4>
+                    <div>
+                        <a href="#"><button class="btn">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <!-- box 05 -->
+                <div>
+                    <img src="./assets/sample-flower-image.png" alt="" width="100%">
+                    <h5>Lily Blossom</h5>
+                    <h4>20 USD</h4>
+                    <div>
+                        <a href="#"><button class="btn">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <!-- box 06 -->
+                <div>
+                    <img src="./assets/sample-flower-image.png" alt="" width="100%">
+                    <h5>Lily Blossom</h5>
+                    <h4>20 USD</h4>
+                    <div>
+                        <a href="#"><button class="btn">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <!-- box 07 -->
+                <div>
+                    <img src="./assets/sample-flower-image.png" alt="" width="100%">
+                    <h5>Lily Blossom</h5>
+                    <h4>20 USD</h4>
+                    <div>
+                        <a href="#"><button class="btn">ADD TO CART</button></a>
+                    </div>
+                </div>
+                <!-- box 08 -->
+                <div>
+                    <img src="./assets/sample-flower-image.png" alt="" width="100%">
+                    <h5>Lily Blossom</h5>
+                    <h4>20 USD</h4>
+                    <div>
+                        <a href="#"><button class="btn">ADD TO CART</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer part  -->
+    <footer>
+        <!-- Join the colorful Bunch part  -->
+        <section class="join-bg">
+            <div class="join-con">
+                <h2 class="text-center text-white">Join the colorful Bunch</h2>
+                <div class="search-con">
+                    <input type="search" name="" id="" placeholder="Write email"> 
+                    <a href="#"><button class="btn">Subscribe</button></a>
+                </div>
+            </div>
+        </section>
+        <div class="foot-con">
+            <div>
+                <div>
+                    <a href="#"><img src="./assets/logo.png" alt=""></a>
+                </div>
+                <p style="margin-top: 14px;">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+            </div>
+            <div class="flex justify-center mob-left">
+                <div class="text-[#6B7280] flex flex-col gap-6">
+                    <div><a href="#">Home</a></div>
+                    <div><a href="#">About Us</a></div>
+                    <div><a href="#">Blog</a></div>
+                    <div><a href="#">FAQ</a></div>
+                    <div><a href="#">Contact Us</a></div>
+                </div>
+            </div>
+            <div class="flex justify-center mob-left">
+                <div class="text-[#6B7280] flex flex-col gap-6">
+                    <div><a href="#">Features</a></div>
+                    <div><a href="#">Pricing</a></div>
+                    <div><a href="#">Privacy Policy</a></div>
+                    <div><a href="#">Terms of Service</a></div>
+                    <div><a href="#">Help Center</a></div>
+                </div>
+            </div>
+            <div class="flex gap-6 justify-end mob-left">
+                <div>
+                    <a href="#"><i class="fa-brands fa-linkedin text-4xl text-[#007EBB]"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter text-4xl"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-square-facebook text-4xl text-[#1876F0]"></i></a>
+                </div>
+                <div>
+                    <a href="#"><i class="fa-brands fa-youtube text-4xl text-[#FE0000]"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="./script.js"></script>
 </body>
 
