@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+/* header part  */
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 18px;
+}
+.logo img{
+    width: 100px;
+}
+.mob-menu-btn , .mob-shop{
+    display: none;
+}
+.mob-menu-btn{
+    font-size: 20px;
+    cursor: pointer;
+}
+.mob-menu{
+    display: none;
+    background-color: rgb(231, 225, 225);
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 12px;
+}

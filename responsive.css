@@ -1,0 +1,31 @@
+@media(max-width:768px) {
+
+    /* Header part  */
+    .des-menu {
+        display: none;
+    }
+
+    .logo img {
+        width: 70px;
+    }
+
+    .mob-menu-btn,
+    .mob-shop {
+        display: flex;
+        align-items: center;
+    }
+
+    .mob-menu.open {
+        display: block;
+    }
+
+    li {
+        margin-top: 10px;
+    }
+
+    li:hover {
+        background-color: #E95A08;
+        color: white;
+        border-radius: 4px;
+    }
+}
