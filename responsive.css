@@ -62,10 +62,38 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* footer part  */
-    .join-con{
-        padding:150px 18px ;
+    /* Flower & Plants Lover part  */
+    .lov-con {
+        flex-direction: column;
     }
+.lov-con .box-01{
+    display: flex;
+    justify-content: center;
+}
+    .lov-con .box-01,
+    .lov-con .box-02 {
+        width: 100%;
+    }
+
+    .lov-con .box-02 h2 {
+        width: 100%;
+    }
+
+    .lov-con ul li {
+        width: 98%;
+    }
+
+    /* Latest  Deals part */
+
+    /* .deal-con p {
+        width: 90%;
+    } */
+
+    /* footer part  */
+    .join-con {
+        padding: 150px 18px;
+    }
+
     .search-con {
         width: 90%;
     }
@@ -90,5 +118,9 @@
 
     h2 {
         font-size: 30px;
+    }
+    .lov-con ul li {
+        width: 90%;
+        margin-top: 18px;
     }
 }
