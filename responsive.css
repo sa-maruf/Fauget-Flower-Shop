@@ -66,10 +66,16 @@
     .lov-con {
         flex-direction: column;
     }
-.lov-con .box-01{
-    display: flex;
-    justify-content: center;
-}
+
+    .lov-con .box-01 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .badge img {
+        display: none;
+    }
+
     .lov-con .box-01,
     .lov-con .box-02 {
         width: 100%;
@@ -111,6 +117,8 @@
     }
 }
 
+/* Mobile responsive part  */
+
 @media (min-width:769px) and (max-width:950px) {
     h1 {
         font-size: 38px;
@@ -119,8 +127,27 @@
     h2 {
         font-size: 30px;
     }
+
     .lov-con ul li {
         width: 90%;
         margin-top: 18px;
+    }
+
+    /* Flower & Plants Lover part  */
+
+    .badge img {
+        width: 140px;
+        margin-top: -460px;
+        margin-left: 260px;
+    }
+}
+
+@media (min-width:951px) and (max-width:1030px) {
+    /* Flower & Plants Lover part  */
+
+    .badge img {
+        width: 140px;
+        margin-top: -490px;
+        margin-left: 290px;
     }
 }

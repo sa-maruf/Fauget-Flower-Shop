@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* list-style: none; */
     font-family: "Inter", sans-serif;
 }
 
@@ -41,6 +40,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 18px;
+    list-style: none;
 }
 
 .logo img {
@@ -128,13 +128,22 @@ main {
     display: flex;
     gap: 30px;
     align-items: center;
+    position: relative;
 }
 
 .lov-con .box-01,
 .lov-con .box-02 {
     width: 50%;
 }
-.lov-con .box-02 h2{
+
+.badge img {
+    width: 220px;
+    position: absolute;
+    margin-top: -680px;
+    margin-left: 410px;
+}
+
+.lov-con .box-02 h2 {
     width: 80%;
 }
 
@@ -143,7 +152,8 @@ main {
     padding-left: 18px;
     margin-top: 20px;
 }
-.lov-con ul li{
+
+.lov-con ul li {
     width: 86%;
     margin-top: 24px;
 }
