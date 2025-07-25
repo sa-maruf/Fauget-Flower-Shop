@@ -91,9 +91,33 @@
 
     /* Latest  Deals part */
 
-    /* .deal-con p {
+    .deal-con p {
         width: 90%;
-    } */
+    }
+
+    .deal-box {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 200px);
+    }
+
+    .deal-box .box-01,
+    .deal-box .box-02,
+    .deal-box .box-03 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .deal-box .box-01 {
+        order: 1;
+    }
+
+    .deal-box .box-02 {
+        order: 2;
+    }
+
+    .deal-box .box-03 {
+        order: 3;
+    }
 
     /* footer part  */
     .join-con {
